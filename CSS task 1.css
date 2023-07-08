@@ -1,0 +1,8 @@
+.p3{
+    font-family: 'montserrat', sans-serif;
+    font-style: italic;
+    color: crimson;
+}
+.p3:hover{
+    background-color: antiquewhite;
+}

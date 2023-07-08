@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+}
+h1{
+    font-family: 'Bebas', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-size: larger;
+    font-weight: bolder;
+    text-align: start;
+    color: burlywood;
+}
+ul{
+    margin: 30px;
+    text-align: end;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    background-color: cadetblue;
+}
+li:hover{
+    background-color: crimson;
+}
+#list3{
+    display: none;
+}
+.container{
+    width: 600px;
+    height: 300px;
+}
+#para{
+    background-color: aliceblue;
+    text-align: justify;
+    padding: 30px;
+    border-radius: 20px;
+    color: blue;
+}
