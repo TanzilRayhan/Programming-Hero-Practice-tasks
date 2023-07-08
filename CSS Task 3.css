@@ -1,0 +1,31 @@
+.bg{
+    height: 450px;
+    background-image: url('Images/bg.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 100px;
+    /* position: fixed; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: sticky; */
+
+}
+.lorem{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+}
+li{
+    border: 2px solid black;
+    display: inline;
+    padding: 10px;
+}
+span{
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+}

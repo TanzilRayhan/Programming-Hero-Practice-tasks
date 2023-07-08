@@ -29,7 +29,8 @@ li:hover{
     background-color: crimson;
 }
 #list3{
-    display: none;
+    /* display: none; */
+    visibility: hidden;
 }
 .container{
     width: 600px;
