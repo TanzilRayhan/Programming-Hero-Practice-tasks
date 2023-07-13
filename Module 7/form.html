@@ -5,25 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>form</title>
     <style>
-        nav{
-            display: flex;
-            justify-content: space-between;
-        }
-        a{
-            color: black;
-            text-decoration: none;
-        }
+      nav {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+        padding-left: 20px;
+        
+      }
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+        border: 2px palevioletred solid;
+        width: 50%;
+      }
+      .login-form input {
+        margin-top: 20px;
+      }
+      input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+      }
+      input:focus {
+        border: 2px solid red;
+      }
+      .form-container{
+        border: 2px solid red;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+      }
     </style>
   </head>
   <body>
     <nav>
-        <div>
-            <a href="">Home</a>
-            <a href="">Profile</a>
-            <a href="">Blog</a>
-            <a href="">About</a>
-        </div>
+      <div class="list">
+        <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">About</a>
+      </div>
       <a href="">Login</a>
     </nav>
+    <section class="form-container">
+        <form class="login-form">
+            <h3>Please Login</h3>
+            <input type="email" placeholder="Your Email" required />
+            <input type="password" placeholder="Your Password" />
+            <input type="submit" value="Login" />
+          </form>
+    </section>
   </body>
 </html>
